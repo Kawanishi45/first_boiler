@@ -2,4 +2,4 @@ run:
 	go run ./cmd/server/main.go
 
 sqlboiler:
-	sqlboiler mysql -c sqlboiler.toml -o ./cmd/server/models --no-tests
+	sqlboiler mysql -c sqlboiler.toml -o ./models --no-tests
